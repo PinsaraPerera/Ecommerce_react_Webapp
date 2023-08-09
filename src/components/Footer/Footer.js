@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
 
                 <div className = "footer-item text-center">
-                    <h6 className='fs-17 fw-6'>About Shopping Hub</h6>
+                    <h6 className='fs-17 fw-6'>About e-Shopping</h6>
                     <ul>
                         <li><a href = "/terms" className = "fs-15">Company Info</a></li>
                         <li><a href = "/cookies" className = "fs-15">Branches</a></li>
@@ -39,11 +39,11 @@ const Footer = () => {
                     <ul>
                         <li>
                             <span><i className = "fas fa-phone"></i></span>
-                            <span className = "fs-15">+678 004 5754</span>
+                            <span className = "fs-15">+940 0483 042</span>
                         </li>
                         <li>
                             <span><i className = "fas fa-envelope"></i></span>
-                            <span className = "fs-15">info@shophub.com</span>
+                            <span className = "fs-15">info@eshop.com</span>
                         </li>
                     </ul>
                 </div>

@@ -68,39 +68,15 @@ const Navbar = () => {
       dispatch(setStatus(STATUS.ERROR));
     }
   };
-
-  // function searchProduct() {
-  //   try {
-  //     const response = fetch(
-  //       `${BASE_URL}products/search?q=${keyword}`
-  //     ).then(async (res) => {
-  //       const data0 = await res.json();
-  //       const data = data0.products;
-
-  //       for (let i = 0; i < data.length; i++) {
-  //         const id = cat.indexOf(data[i].category);
-  //         const name = data[i].category;
-  //         const image = "null";
-
-  //         data[i].category = { "id": id, "name": name, "image": image };
-  //       }
-
-  //       history('/search');
-  //     });
-  //   }
-  //   catch (error) {
-  //     console.error('Error fetching data from API:', error);
-  //   }
-  // }
-
+  
   return (
     <nav className="navbar">
       <div className="navbar-content">
         <div className="container">
           <div className="navbar-top flex flex-between">
             <Link to="/" className="navbar-brand">
-              <span className="text-regal-blue">Shopping</span>
-              <span className="text-gold">Hub.</span>
+              <span className="text-regal-blue">Future</span>
+              <span className="text-gold">Shopping</span>
             </Link>
 
             <form className="navbar-search flex">
