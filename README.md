@@ -5,7 +5,7 @@ Welcome to Awesome Shopping Web App! This is a user-friendly and attractive web 
 
 ## Demo
 
-Check out the [live demo](https://pinsaraperera.github.io/Ecommerce-react-Webapp/) to see the app in action!
+Check out the [live demo](https://pinsaraperera.github.io/) to see the app in action!
 
 ## Features
 
